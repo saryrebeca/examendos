@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,700i,900&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#sec-works{
+	background-color: #fff;
+	padding: 90px;
+	text-align: center;
+}
+
+.title{
+	font-weight: 200;
+	color: #000;
+	text-align: right;
+	font-size: 45px;
+	margin-bottom: 20px;
+		
+}
+
+.titledos{
+	font-weight: 200;
+	color: #1685CC;
+	text-align: left;
+	font-size: 45px;
+	margin-bottom: 20px;
+		
+}
+
+.subtitle{
+	font-size: 15px;
+	font-weight: 200;
+	color: #000;
+	text-align: center;
+	margin-bottom: 40px;	
+}
+
+.work-info{
+	position: relative;
+	overflow: hidden;
+}
+
+.work-info .bg-green{
+	position: absolute;
+	top: 0;
+	background-color: #1685CC;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+}
+.work-info:hover .layer-text,
+.work-info:hover .bg-green{
+	opacity: 1;
+	transition: all 0.3s ease-in;
+}
+
+.layer-text a,
+.cintillo a{
+	color: #fff;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color:rgba(0,0,0,0.40);
+	z-index: 100;
+}
+
+.cintillo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #28D1A2;
+	color: #fff;
+	text-align: center;
+	z-index: 100;
+	opacity: 0;
+}
+
+.cintillo h5{
+	margin-bottom: 0;
+}
+
+.work-info:hover .cintillo{
+	opacity: 1;
+	transition: all	0.3s ease-in;
+}
+.layer-icon{
+	position: absolute;
+	top:0;
+	right: 10px;
+	color: #fff;
+ }
+
+#sec-testimonials{
+	text-align: center;
+	background-color: #F2F2F2;
+	color: grey;
+	padding: 120px;
+}
+
+#sec-testimonials h5{
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+#sec-testimonials h4{
+	font-weight: 200;
+	font-size: 15px;
+	margin-bottom: 10px;
+	color: #8A8A8A;
+}
+
+
+
+footer{
+	background-color: #363636;
+	padding: 40px;
+	color: #fff;
+	text-align: center;
+
+}
+
+footer p{
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+#sec-hero {
+	text-align: center;
+	background-image: url(../img/bg-1.jpg);
+	color: #FFFDFD;
+}
+#sec-hero .btn-link{
+	color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	
+}
+#sec-services{
+	text-align: center;
+	background-color: #F2F2F2;
+}
+#sec-blog h2{
+	text-align: center;
+	color: #434141;
+}
+#sec-blog h3{
+	text-align: center;
+	color: #000000;
+	font-size: 12px;
+
+}
+
+#sec-hero{
+	padding: 200px;
+}
+#sec-services{
+	padding: 250px;
+}
+
+.services i{
+	font-size: 20px;
+	color: #1685CC;
+	text-align: center;
+}
+
